@@ -23,7 +23,7 @@ public class Trapping_RainWater {
             //WaterLevel = min(leftmax bound, rightmax bound)
             int Waterlevel = Math.min(leftMax[i], rightMax[i]);
 
-            //Trapped Water = Waterlevel = height[i]  
+            //Trapped Water = Waterlevel - height[i]  
             trappedWater += Waterlevel - height[i];
         }
 
