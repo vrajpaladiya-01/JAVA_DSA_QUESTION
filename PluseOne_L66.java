@@ -13,7 +13,7 @@ public class PluseOne_L66 {
         result[0] = 1;
 
         return result;
-    }
+    }   
 
     public static void main(String[] args) {
         int[] digits = {9, 9, 9};
