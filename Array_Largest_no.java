@@ -21,7 +21,7 @@ public class Array_Largest_no {
         return largest;
     }
     public static void main(String[] args) {
-        int numbers[] = {5, 7, 9, 3, 6, 11 ,2, 14};
+        int numbers[] = {5, 7, 9, -1, 3, 6, 11 ,2, 14};
 
         System.out.println("Largest no of : " + GetLargest(numbers));
     }
