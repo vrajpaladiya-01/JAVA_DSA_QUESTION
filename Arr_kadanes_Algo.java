@@ -32,22 +32,25 @@ public class Arr_kadanes_Algo {
         System.out.println("Maxsum of SubArray is : " + ms);
     }
 
-    // public static void Negative_kadanes(int arr[]){
-    //     int cs = arr[0];
-    //     int ms = arr[0];
 
-    //     for(int i=0; i<arr.length; i++){
-    //         cs = Math.max(arr[i], cs + arr[i]);
-    //         ms = Math.max(cs, ms);
-    //     }
+    //LeetCode
 
-    //     System.out.println("Maxsum of SubArray is : " + ms);
-    // }
+    public static void Negative_kadan(int arr[]){
+        int cs = arr[0];
+        int ms = arr[0];
+
+        for(int i=0; i<arr.length; i++){
+            cs = Math.max(arr[i], cs + arr[i]);
+            ms = Math.max(cs, ms);
+        }
+
+        System.out.println("Maxsum of SubArray is : " + ms);
+    }
     public static void main(String[] args) {
         int numbers[] = {-2, -3, 4, -1, -2, 1, 5, -3};
         int arr[] = {-2, -3, -4, -1, -5};
 
-        // kadanes_Algo(numbers);
-        Negative_kadanes(arr);
+        kadanes_Algo(numbers);
+        // Negative_kadanes(arr);
     }
 }
