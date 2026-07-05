@@ -30,7 +30,7 @@ public class Linear_Search {
 
         int index = linearsearch(numbers, key);
         if(index == -1){
-            System.out.print("Not Found");
+            System.out.println("Not Found");
         }
         else{
             System.out.print("Index no is : " + index);
