@@ -52,6 +52,6 @@ public class Large_Small_No_Find_2D_Matrices {
         }
 
         // System.out.println(largest(matrix));
-        System.out.println(smallest(matrix));
+        // System.out.println(smallest(matrix));
     }
 }

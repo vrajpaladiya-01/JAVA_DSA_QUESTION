@@ -1,7 +1,7 @@
 public class BitQue {
 
     public static boolean PowerOfTwo(int n){
-        return (n & (n-1)) == 0;
+        return n > 0 && (n & (n-1)) == 0;
     }
 
     public static int countSet(int n){

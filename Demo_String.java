@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Demo_String {
     //charAt
@@ -24,7 +24,10 @@ public class Demo_String {
         String fn = "Vraj";
         String ln = "Paladiya";
         String fullname = fn + " " + ln;
+        String fin = fn.concat(ln);
 
+
+        System.out.println(fullname);
         System.out.println(fullname);
         PrintLtr(fullname);
     }

@@ -6,11 +6,11 @@ public class FindNo_2D {
 
         for(int i=0; i<array.length; i++){
             for(int j=0; j<=array.length; j++){
-                if(array[i][j] == 7){
+                if(array[i][j] == 8){
                     count++;
                 }
             }
         }
-        System.out.println("Find 7's no is : " + count);
+        System.out.println("Find 8's no is : " + count);
     }
 }
