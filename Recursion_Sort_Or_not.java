@@ -11,6 +11,6 @@ public class Recursion_Sort_Or_not {
     }
     public static void main(String[] args) {
         int arr[] = {1, 2, 6, 3, 4, 5};
-        System.out.println(isSorted(arr, 0));
+        System.out.println(isSorted(arr, 3));
     }
 }

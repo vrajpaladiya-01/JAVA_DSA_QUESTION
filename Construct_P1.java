@@ -8,12 +8,12 @@ public class Construct_P1 {
         s1.marks[1] = 90;
         s1.marks[2] = 80;
 
-        Student s2 = new Student("Vraj Paladiya");
+        Student s2 = new Student("Vraj Paladiya 2");
         System.out.println(s2.name);
         s2.password = "xyz";
 
         for(int i=0; i<3; i++){
-            System.out.println(s2.marks[i]);
+            System.out.println(s1.marks[i]);
         }
     }
 }

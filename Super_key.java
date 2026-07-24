@@ -1,6 +1,6 @@
 public class Super_key {
     public static void main(String[] args) {
-        
+        Hourse h = new Hourse();
     }
 }
 

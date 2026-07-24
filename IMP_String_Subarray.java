@@ -17,7 +17,7 @@ public class IMP_String_Subarray {
         return res;
     }
     public static void main(String[] args) {
-        String str = "aba";
+        String str = "abacc";
         int n = str.length();
         System.out.print(countSubStr(str, 0, n-1, n));
     }

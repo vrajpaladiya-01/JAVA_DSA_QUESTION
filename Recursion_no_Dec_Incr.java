@@ -18,9 +18,21 @@ public class Recursion_no_Dec_Incr {
         printIncr(n-1);
         System.out.print(n+ " ");
     }
+
+    public static void fun(int n){
+        if(n == 0){
+            return;
+        }
+
+        System.out.print(n + "A" + " ");
+        fun(n-1);
+        System.out.print(n + "B" + " ");
+    }
     public static void main(String[] args) {
         int n = 10;
         PrintDec(n);
         printIncr(n);
+        System.out.println();
+        fun(n);
     }
 }
